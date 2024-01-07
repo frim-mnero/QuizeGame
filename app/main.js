@@ -84,6 +84,7 @@ const timerDisplay = () => {
 };
 
 //Display quiz
+
 const quizDisplay = (questionCount) => {
   let quizCards = document.querySelectorAll(".container-mid");
   //Hide other cards
@@ -134,6 +135,7 @@ function checker(userOption) {
   if (userSolution === quizArray[questionCount].correct) {
     userOption.classList.add("correct");
     scoreCount++;
+
   } else {
     userOption.classList.add("incorrect");
     //For marking the correct option

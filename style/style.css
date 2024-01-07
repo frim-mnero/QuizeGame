@@ -18,6 +18,9 @@
     align-items: center;
     justify-content: center;
   }
+  .score-text{
+    display: inline;
+  }
   button {
     border: none;
     outline: none;
