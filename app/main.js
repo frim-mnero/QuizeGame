@@ -19,21 +19,21 @@ let countdown;
 const quizArray = [
   {
     id: "0",
-    question: "Which is the most widely spoken language in the world?",
-    options: ["Spanish", "Mandarin", "English", "German"],
-    correct: "Mandarin",
+    question: "В каком году началась Великая отечественная война?",
+    options: ["1918", "1939", "1945", "2000"],
+    correct: "1939",
   },
   {
     id: "1",
-    question: "Which is the only continent in the world without a desert?",
-    options: ["North America", "Asia", "Africa", "Europe"],
-    correct: "Europe",
+    question: "Как звали доктора,который лечил животных на острове?",
+    options: ["Айболит", "Ватсон", "Живаго", "Преображенский"],
+    correct: "Айболит",
   },
   {
     id: "2",
-    question: "Who invented Computer?",
-    options: ["Charles Babbage", "Henry Luce", "Henry Babbage", "Charles Luce"],
-    correct: "Charles Babbage",
+    question: "Сколько материков существует на планете Земля?",
+    options: ["5", "6", "7", "8"],
+    correct: "7",
   },
 ];
 
