@@ -57,7 +57,7 @@ nextBtn.addEventListener(
       scoreContainer.classList.remove("hide");
       //user score
       userScore.innerHTML =
-        "Your score is " + scoreCount + " out of " + questionCount;
+        "ты набрал " + scoreCount + " балл(а) из " + questionCount;
     } else {
       //display questionCount
       countOfQuestion.innerHTML =
