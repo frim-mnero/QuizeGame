@@ -63,7 +63,7 @@ body{
 
 .answer{
     align-self: center;
-    width: 80%;
+    width: 200px;
     padding: 15px 15px;
     font-family: var(--font-russo-one);
     font-size: 20px;
