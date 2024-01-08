@@ -15,7 +15,10 @@ let count = 11;
 let countdown;
 
 //Questions and Options array
+let contScore=document.getElementById('score-container-counter');
+let scoreCounter = 0;
 
+contScore.innerHTML = scoreCounter;
 const quizArray = [
   {
     id: "0",
@@ -135,8 +138,12 @@ function checker(userOption) {
   if (userSolution === quizArray[questionCount].correct) {
     userOption.classList.add("correct");
     scoreCount++;
+    scoreCounter+=1;
+    contScore.innerHTML = localStorage.setItem('counter',scoreCounter);
 
   } else {
+    scoreCounter-=1;
+    
     userOption.classList.add("incorrect");
     //For marking the correct option
     options.forEach((element) => {
